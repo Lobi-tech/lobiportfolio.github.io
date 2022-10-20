@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: cursive;background: black ;color: #ccc;}
+header nav{border-bottom: #ccc dotted 2px;border-color: purple; display: flex;justify-content: space-between;padding: 10px; width: 100%;height: 20vh;font-size: 1rem;background-color: transparent;}
+.logo{width: 10%;height: 10vh;z-index: 1;box-shadow: 10px 11px 20px -3px ;
+    -webkit-box-shadow: 10px 11px 20px -3px rgba(147,14,158,0.75);}
+.logo-img{height: 100%;width: 100%;border-radius: 8px;}
+nav ul{display: flex;padding: 10px;width: 40%;box-shado: 11px 12px 4px -3px rgba(66,1,66,1);}
+nav li a{color: #ccc;text-decoration: none;}
+nav li{list-style: none;padding: 8px; box-shadow: 11px 12px 4px -3px rgba(66,1,66,1);}
+nav li a:hover{color: #000000;background-color: purple;transition: .4s;transition: .4s;}
+button{padding: 8px;box-shadow: 11px 12px 4px -3px rgba(147,14,158,0.75);height: 5vh;}
