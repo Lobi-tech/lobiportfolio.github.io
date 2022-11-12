@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;box-sizing: border-box;list-style: none;text-decoration: none;}
+body{font-family: cursive;background-color: black;color: aliceblue;}
+span{color: blueviolet;}
+header{width: 100%;height: 10vh;background: #ccc;}
+.logo{border: 1px solid black;border-radius: 8px;}
+ nav{display: flex;justify-content: space-between; padding: 5px;width: 100%;height: 10vh;background-color: #ccc;}
+ul{display: none;padding: 5px;width: 60%;}
+nav ul li{font-size: 14px;margin: 5px;width: 10%;}
+#btn1, button{background-color: purple;padding: 6px 5px;color: #ccc;border: 1px black solid;border-radius: 25px;height: 30px;}
+#btn3 a{color: #ccc;}
+button:hover{transform: scale(1.2);transition: 2s;}
+.top{width: 100%;height: 70vh;display: block;margin-top: 10px;font-size: 2.0em;}
+.cp h1{width: 22ch;
+animation: typing 2s steps(22), blink 1.5s step-end infinite alternate;white-space: nowrap;overflow: hidden;}
+@keyframes typing {from{width: 0;}}
+@keyframes blink {50%{border-color: transparent;}
+    
+}
+.topctrl{display: flex;justify-content: space-evenly;}
+.topctrl img{height: 90%;width: 100%;}
+
+.infographics{ width: 50%;}
+.mid{margin-top: 10px;width: 100%;padding: 10px;max-height: 30vh;margin-bottom: 20px;}
+.mid h1,h3{font-size: 2.0rem;font-weight: bold;text-decoration: underline;}
+.mid h4 i{padding: 5px;border: 1px solid #ccc;border-radius: 50%;}
+
+.whoo{width: 100%;height: 40vh;display: flex;columns: 2;white-space: 5;justify-content: space-around;}
+.testionials{width: 100%;padding: auto;height: auto;display: inline;}
+.tes{display: flex;flex-direction: row;row-gap: 10px;}
+.card2{display: block;height: 25vh;width: 20%;padding: 5px;margin: 4px;border: #ccc solid 3px;}
+.card2 img{height: 30px;width: 30px;border-radius: 50%;float: left;margin-right: 5px;border: #ccc 1px solid;}
